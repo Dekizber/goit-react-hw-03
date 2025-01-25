@@ -1,6 +1,7 @@
 import Contact from "../Contact/Contact";
 import clsx from "clsx";
 import s from "./ContactList.module.css";
+
 const ContactList = ({ contacts, handleDeleteContact }) => {
   return (
     <ul className={clsx(s.listContact)}>
